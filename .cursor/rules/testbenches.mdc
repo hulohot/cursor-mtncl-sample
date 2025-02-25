@@ -1,0 +1,9 @@
+---
+description: MTNCL testbenches
+globs: 
+alwaysApply: false
+---
+
+# Your rule content
+
+- Use cocotb to write MTNCL testbenches

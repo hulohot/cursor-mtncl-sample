@@ -1,0 +1,107 @@
+v 4
+file "/Users/ethan/Documents/workspace/repos/cursor-mtncl-sample/example/MTNCL_FullAdder/" "./test_full_adder.vhd" "b0ce4d61fe9d6ae89999e6fed5ed6afaa6689035" "20250225194149.461":
+  entity test_full_adder at 11( 289) + 0 on 171;
+  architecture testbench of test_full_adder at 19( 424) + 0 on 172;
+file "/Users/ethan/Documents/workspace/repos/cursor-mtncl-sample/example/MTNCL_FullAdder/" "./MTNCL_FullAdder.vhd" "adb8705eb8018826b63b2e373da0283e0cafe5f8" "20250225204837.353":
+  entity mtncl_fulladder at 11( 304) + 0 on 175;
+  architecture structural of mtncl_fulladder at 27( 668) + 0 on 176;
+file "/Users/ethan/Documents/workspace/repos/cursor-mtncl-sample/example/MTNCL_FullAdder/" "../../common/MTNCL_registers.vhd" "3c2b42a218c3a6e57efa9748a9ce668dd94b3e01" "20250225204837.247":
+  entity regm at 15( 524) + 0 on 4;
+  architecture arch of regm at 26( 740) + 0 on 4;
+  entity regdm at 43( 1082) + 0 on 4;
+  architecture arch of regdm at 55( 1326) + 0 on 4;
+  entity regnm at 72( 1681) + 0 on 4;
+  architecture arch of regnm at 83( 1924) + 0 on 4;
+  entity regnullm at 99( 2281) + 0 on 4;
+  architecture arch of regnullm at 110( 2530) + 0 on 4;
+  entity genregm at 125( 2783) + 0 on 4;
+  architecture arch of genregm at 136( 3068) + 0 on 4;
+  entity piperegm at 154( 3384) + 0 on 4;
+  architecture arch of piperegm at 166( 3713) + 0 on 4;
+  entity genregrstm at 207( 4771) + 0 on 4;
+  architecture arch of genregrstm at 224( 5221) + 0 on 4;
+  entity eregm at 273( 6494) + 0 on 4;
+  architecture arch of eregm at 285( 6815) + 0 on 4;
+  entity shiftregmtncl at 336( 7972) + 0 on 4;
+  architecture arch of shiftregmtncl at 354( 8488) + 0 on 4;
+file "/Users/ethan/Documents/workspace/repos/cursor-mtncl-sample/example/MTNCL_FullAdder/" "../../common/MTNCL_completion.vhd" "8475db49dd1a35b3fbb88bc78b51da9fdd51d67a" "20250225204837.247":
+  package tree_funcs at 13( 339) + 0 on 4;
+  package body tree_funcs at 25( 789) + 0 on 4;
+  entity andtreem at 94( 2138) + 0 on 4;
+  architecture arch of andtreem at 106( 2410) + 0 on 4;
+  entity compm at 171( 5157) + 0 on 4;
+  architecture arch of compm at 183( 5438) + 0 on 4;
+  entity compdm at 249( 6846) + 0 on 4;
+  architecture arch of compdm at 261( 7129) + 0 on 4;
+  entity comp1m at 327( 8536) + 0 on 4;
+  architecture arch of comp1m at 339( 8824) + 0 on 4;
+  entity comp1dm at 403( 10289) + 0 on 4;
+  architecture arch of comp1dm at 415( 10579) + 0 on 4;
+file "/Users/ethan/Documents/workspace/repos/cursor-mtncl-sample/example/MTNCL_FullAdder/" "../../common/MTNCL_package.vhd" "c9d7ff417d61af7ca339c866aa0d0aaf27613f77" "20250225204837.353":
+  package mtncl_gates at 1( 0) + 0 on 174;
+file "/Users/ethan/Documents/workspace/repos/cursor-mtncl-sample/example/MTNCL_FullAdder/" "../../common/MTNCL_gates.vhd" "865278be54bb1d207b9ee230487c15dcd0798558" "20250225204837.353":
+  entity bufferm_a at 7( 237) + 0 on 177;
+  architecture arch of bufferm_a at 16( 389) + 0 on 178;
+  entity th12m_a at 34( 752) + 0 on 179;
+  architecture archth12m_a of th12m_a at 44( 920) + 0 on 180;
+  entity th12dm_a at 63( 1314) + 0 on 181;
+  architecture archth12dm_a of th12dm_a at 74( 1505) + 0 on 182;
+  entity th12nm_a at 94( 1985) + 0 on 183;
+  architecture archth12nm_a of th12nm_a at 105( 2179) + 0 on 184;
+  entity th13m_a at 125( 2656) + 0 on 185;
+  architecture archth13m_a of th13m_a at 136( 2845) + 0 on 186;
+  entity th14m_a at 156( 3268) + 0 on 187;
+  architecture archth14m_a of th14m_a at 168( 3478) + 0 on 188;
+  entity th22m_a at 189( 3922) + 0 on 189;
+  architecture archth22m_a of th22m_a at 199( 4090) + 0 on 190;
+  entity th23m_a at 217( 4489) + 0 on 191;
+  architecture archth23m_a of th23m_a at 228( 4678) + 0 on 192;
+  entity th23w2m_a at 248( 5143) + 0 on 193;
+  architecture arch of th23w2m_a at 259( 5336) + 0 on 194;
+  entity th24m_a at 278( 5746) + 0 on 195;
+  architecture archth24m_a of th24m_a at 290( 5957) + 0 on 196;
+  entity th24w2m_a at 313( 6510) + 0 on 197;
+  architecture archth24w2m_a of th24w2m_a at 325( 6725) + 0 on 198;
+  entity th24w22m_a at 346( 7220) + 0 on 199;
+  architecture archth24w22m_a of th24w22m_a at 358( 7437) + 0 on 200;
+  entity th24compm_a at 378( 7894) + 0 on 201;
+  architecture archth24compm_a of th24compm_a at 390( 8113) + 0 on 202;
+  entity th33m_a at 408( 8560) + 0 on 203;
+  architecture archth33m_a of th33m_a at 419( 8749) + 0 on 204;
+  entity th33w2m_a at 437( 9165) + 0 on 205;
+  architecture archth33w2m_a of th33w2m_a at 448( 9358) + 0 on 206;
+  entity th34m_a at 467( 9798) + 0 on 207;
+  architecture archth34m_a of th34m_a at 479( 10009) + 0 on 208;
+  entity th34w2m_a at 500( 10556) + 0 on 209;
+  architecture archth34w2m_a of th34w2m_a at 512( 10769) + 0 on 210;
+  entity th34w22m_a at 533( 11288) + 0 on 211;
+  architecture archth34w22m_a of th34w22m_a at 545( 11505) + 0 on 212;
+  entity th34w3m_a at 567( 12042) + 0 on 213;
+  architecture archth34w3m_a of th34w3m_a at 579( 12257) + 0 on 214;
+  entity th34w32m_a at 598( 12702) + 0 on 215;
+  architecture archth34w32m_a of th34w32m_a at 610( 12919) + 0 on 216;
+  entity th44m_a at 629( 13367) + 0 on 217;
+  architecture archth44m_a of th44m_a at 641( 13578) + 0 on 218;
+  entity th44w2m_a at 659( 14009) + 0 on 219;
+  architecture archth44w2m_a of th44w2m_a at 671( 14224) + 0 on 220;
+  entity th44w22m_a at 691( 14735) + 0 on 221;
+  architecture archth44w22m_a of th44w22m_a at 703( 14951) + 0 on 222;
+  entity th44w3m_a at 723( 15454) + 0 on 223;
+  architecture archth44w3m_a of th44w3m_a at 735( 15669) + 0 on 224;
+  entity th44w322m_a at 753( 16111) + 0 on 225;
+  architecture archth44w322m_a of th44w322m_a at 765( 16331) + 0 on 226;
+  entity th54w22m_a at 784( 16811) + 0 on 227;
+  architecture archth54w22m_a of th54w22m_a at 796( 17028) + 0 on 228;
+  entity th54w32m_a at 814( 17473) + 0 on 229;
+  architecture archth54w32m_a of th54w32m_a at 826( 17690) + 0 on 230;
+  entity th54w322m_a at 845( 18149) + 0 on 231;
+  architecture archth54w322m_a of th54w322m_a at 857( 18368) + 0 on 232;
+  entity thand0m_a at 877( 18862) + 0 on 233;
+  architecture archthand0m_a of thand0m_a at 889( 19077) + 0 on 234;
+  entity thxor0m_a at 908( 19551) + 0 on 235;
+  architecture archthxor0m_a of thxor0m_a at 920( 19766) + 0 on 236;
+file "/Users/ethan/Documents/workspace/repos/cursor-mtncl-sample/example/MTNCL_FullAdder/" "../../common/NCL_functions.vhd" "7f834e6c1c232ef1aec84831d4d98e2acfe95041" "20250225204837.245":
+  package functions at 5( 56) + 0 on 4;
+  package body functions at 44( 1515) + 0 on 4;
+file "/Users/ethan/Documents/workspace/repos/cursor-mtncl-sample/example/MTNCL_FullAdder/" "../../common/NCL_signals.vhd" "3c3e6d847f0bb4c366f6694382943da4915a89a0" "20250225204837.352":
+  package ncl_signals at 1( 0) + 0 on 173;
